@@ -11,3 +11,15 @@ and so we cross out all higher multiples of 5 (10, 15, 20, …). We repeat this 
 until we reach the first number in the list that has not been crossed out and whose square
 is greater than n.
 
+Description of the program:
+
+The program uses the above outlined sieve method to find all the prime numbers
+from 2 through n. The program will be reading the values of n from a file. The program will be
+using a two-dimensional dynamic array to store the stepwise results of the sieve method.
+The starting dimensions of the array will be 5 by n. When needed, the array will be
+resized to grow row-wise in increments of 5 and a message ‘Array Resized’ will be
+sent to the screen. Additionally, the user should is given a choice of two modes to run
+the program – in the first mode, the contents of the entire array is sent to the screen and
+in the second mode only the final result i.e. the remaining numbers of the list at the end
+are sent to the screen. This information about the mode is also coming from
+the file.
